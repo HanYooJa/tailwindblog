@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>유쟈버스</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="bg-pink-300 py-4">
+      <div class="container mx-auto flex items-center justify-between">
+        <div id="branding">
+          <h1 class="text-4xl font-bold">
+            <span class="highlight text-blue-500">유</span
+            ><span class="z text-red-400">쟈</span
+            ><span class="x text-green-400">버</span
+            ><span class="c text-pink-500">스</span>📺
+          </h1>
+        </div>
+        <nav>
+          <ul class="flex space-x-4 text-white">
+            <li class="current"><a href="index.html">홈으로</a></li>
+            <li><a href="about.html">만화종류</a></li>
+            <li><a href="ppt.html">만화주제가</a></li>
+            <li><a href="student.html">유쟈의 추천 만화</a></li>
+            <li><a href="js.html">유쟈는 누구인가</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="newsletter" class="bg-blue-200 py-10">
+      <div class="container mx-20">
+        <h1 class="text-white text-5xl font-bold mb-4">
+          소식이 업데이트 되면 알려드릴까요?
+        </h1>
+        <form>
+          <input
+            type="email"
+            placeholder="소식 받을 이메일을 입력해주세요!"
+            class="w-96 p-4 rounded-md mr-4"
+          />
+          <button
+            type="submit"
+            class="button_1 bg-white text-blue-500 font-bold py-2 px-4 rounded-md"
+          >
+            알림신청
+          </button>
+        </form>
+      </div>
+    </section>
+    <section id="main" class="bg-gray-100">
+      <div class="container mx-auto px-4">
+        <article id="main-col" class="py-10">
+          <h1 class="page-title text-3xl font-bold mb-5">유쟈의 추천 만화</h1>
+          <ul
+            id="service"
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          >
+            <li>
+              <h3 class="text-xl font-semibold mb-2">안녕! 보노보노</h3>
+              <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzA3MTBfMTg0%2FMDAxNDk5NjM4MjIxNzU0.jH8xh_A_ZZUpxp8xZBfJZH3GEMmn37eohmSW7tcoHPEg.xT1hiNiQYl6tR711BXV31Qsa9jlp2TgeJA5HSa3SIWsg.JPEG.sunny_mirimi%2F05.jpg&type=sc960_832"
+                class="h-60 object-cover mb-2"
+              />
+              <p class="text-sm">귀여운 아기 해달 보노보노와 친구들의 이야기</p>
+              <button
+                class="bg-pink-300 hover:bg-pink-400 text-white font-bold py-2 px-4 rounded"
+              >
+                <a href="https://www.youtube.com/watch?v=vaTZnfpBDEI"
+                  >노래 들으러 가기</a
+                >
+              </button>
+            </li>
+            <li>
+              <h3 class="text-xl font-semibold mb-2">뚜루뚜루뚜 나롱이</h3>
+              <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA2MTRfMjU3%2FMDAxNjU1MjA5NDc5MjQ2.SeHZ7JiBDPkkDBy6tKcMrRfBBo-DJdzOZOemQF4u7-Eg.-LqmsmQ4OTAGXJoFIIPp2EkY2yPSBgUchQjHtlHZq0sg.JPEG.ze0_0ro%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5.jpeg%25A3%25AD82.jpg&type=sc960_832"
+                class="h-80 object-cover mb-2"
+              />
+              <p class="text-sm">
+                상상의 세계에서 펼쳐지는 귀여운 나롱이의 즐겁고 신나는 이야기
+              </p>
+              <button
+                class="bg-pink-300 hover:bg-pink-400 text-white font-bold py-2 px-4 rounded"
+              >
+                <a href="https://www.youtube.com/watch?v=2Y3AmPqpvxE"
+                  >노래 들으러 가기</a
+                >
+              </button>
+            </li>
+            <li>
+              <h3 class="text-xl font-semibold mb-2">미소의 세상</h3>
+              <img
+                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjExMzBfMjU1%2FMDAxNjY5ODE2MDAzNDg3.uzHoamZjZaTtDEn2KjGyBfslzW0Y5-whNQOptQXVwIwg.lFp_nOthZXrWDL0qIpcsy2iOZzNlrSaffFGJ9Bl6-Y4g.PNG.govl___govl%2Fimage.png&type=sc960_832"
+                class="h-80 object-cover mb-2"
+              />
+              <p class="text-sm">
+                괴짜 유치원 소녀 미소를 둘러싸고 벌어지는 일상의 해프닝을 그린
+                애니메이션
+              </p>
+              <button
+                class="bg-pink-300 hover:bg-pink-400 text-white font-bold py-2 px-4 rounded"
+              >
+                <a href="https://www.youtube.com/watch?v=EBOszmshKdY"
+                  >노래 들으러 가기</a
+                >
+              </button>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </body>
+  <footer class="bg-gray-200 py-4">
+    <div class="container mx-auto">
+      <p class="text-gray-600">
+        Copyright &copy; 2023, 중부대학교 정보보호학과 한유정
+      </p>
+    </div>
+  </footer>
+</html>
